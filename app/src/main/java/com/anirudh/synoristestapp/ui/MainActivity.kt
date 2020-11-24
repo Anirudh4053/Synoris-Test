@@ -49,6 +49,9 @@ class MainActivity : AppCompatActivity(),MainListener, KodeinAware {
     private fun branchTODO() {
         
     }
+    private fun branch2TODO() {
+
+    }
 
     override fun onStarted() {
         progressBar.visibility = View.VISIBLE
