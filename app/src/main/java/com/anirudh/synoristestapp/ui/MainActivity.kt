@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity(),MainListener, KodeinAware {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        println("This is the test log")
+
         recycler_view.layoutManager = LinearLayoutManager(this)
         adapter = MainAdapter(this,itemList) {
             println("All list clicked")
