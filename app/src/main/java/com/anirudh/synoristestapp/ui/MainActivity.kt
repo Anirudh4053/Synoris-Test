@@ -46,7 +46,9 @@ class MainActivity : AppCompatActivity(),MainListener, KodeinAware {
             viewModel.getAllOrderList()
         }
     }
+    private fun masterTodo() {
 
+    }
     override fun onStarted() {
         progressBar.visibility = View.VISIBLE
     }
