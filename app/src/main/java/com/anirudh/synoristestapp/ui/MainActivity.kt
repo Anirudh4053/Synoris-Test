@@ -55,6 +55,9 @@ class MainActivity : AppCompatActivity(),MainListener, KodeinAware {
     private fun masterTodo() {
 
     }
+    private fun newFeatureTODO() {
+
+    }
     override fun onStarted() {
         progressBar.visibility = View.VISIBLE
     }
