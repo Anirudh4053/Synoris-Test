@@ -55,6 +55,9 @@ class MainActivity : AppCompatActivity(),MainListener, KodeinAware {
     private fun masterTodo() {
 
     }
+    private fun newFeatureTODOMaster() {
+
+    }
     private fun newFeatureTODO() {
 
     }
